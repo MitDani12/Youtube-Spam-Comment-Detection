@@ -11,11 +11,11 @@ videos. Because the posts are short and often replete with slangs,
 symbols, and acronyms, automatic comment spam filtering on
 YouTube is a difficulty even for proven categorization systems.
 We evaluated several high-performance classification techniques
-for this purpose in this study.• YouTube API : https://github.com/ThioJoe/YT-SpammerPurge/wiki/Instructions:-Obtaining-an-API-Key
+for this purpose in this study.• YouTube API : https://github.com/ThioJoe/YT-Spammer-Purge/wiki/Instructions:-Obtaining-an-API-Key
 • YouTube API Video Comment
 ## Methodology
 A) Data Sources -
-• YouTube API : https://github.com/ThioJoe/YT-SpammerPurge/wiki/Instructions:-Obtaining-an-API-Key
+• YouTube API : https://github.com/ThioJoe/YT-Spammer-Purge/wiki/Instructions:-Obtaining-an-API-Key
 • YouTube API Video Comment
 • http://mlg.ucd.ie/yt/
 
@@ -74,16 +74,16 @@ For training of classifiers, the features should have enough
 information to distinguish between text.
 
 iv) STOCHASTIC GRADIENT DESCENT - Classifier
-(Support Vector Classification): The Stochastic Gradient Descent - Classifier (SGD-Classifier) is an SGD-optimized linear
+(Support Vector Classification): The Stochastic Gradient Descent - Classifier (SGD-Classifier) is an SGD-optimized linear
 classifier (SVM, logistic regression). SVMs are a class of
 supervised learning methods for classification, regression, and
 outlier detection. High-dimensional spaces are where support
-vector machines shine. Cases in which the number of dimensions exceeds the number of samples. It is memory efficient
+vector machines shine. Cases in which the number of dimensions exceeds the number of samples. It is memory efficient
 because it uses a subset of training points (called support
 vectors) in the decision function.
 
 ## Conclusion
-The purpose of the study was to discover effective methods and settings for detecting spam comments on YouTube.
+The purpose of the study was to discover effective methods and settings for detecting spam comments on YouTube.
 Various strategies are used to categorize YouTube comments
 as spam and not spam (ham). This method was tested with
 real-time YouTube comments and yielded an overall accuracy
